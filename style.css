@@ -1,19 +1,20 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-#Fsec{
+#Fsec {
     width: 100%;
     background: red;
-    border: 2px sold green; 
-    background-image:url(images/hulubackgroundimg.jpeg);
+    border: 2px sold green;
+    background-image: url(images/hulubackgroundimg.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
-.nav2{
+
+.nav2 {
     width: 100%;
     /* border: 2px solid blue; */
     background-color: none;
@@ -22,63 +23,76 @@
     padding: 1.5rem 2rem;
     font-family: sans-serif;
 }
-.nav2 div:nth-child(1) img{
-    width:5rem;
+
+.nav2 div:nth-child(1) img {
+    width: 5rem;
 }
-.nav2 div:nth-child(2){
+
+.nav2 div:nth-child(2) {
     /* border: 2px solid red; */
     display: flex;
 
 }
-.nav2 div:nth-child(2) .login{
+
+.nav2 div:nth-child(2) .login {
     display: block;
     padding: 10px 10px;
-    color:rgb(163,169,183);
-    font-weight:600;
-    font-size:1rem;
+    color: rgb(163, 169, 183);
+    font-weight: 600;
+    font-size: 1rem;
     position: relative;
-    text-decoration:none;  
+    text-decoration: none;
 }
-.nav2 .login:hover{
+
+.nav2 .login:hover {
     color: white;
-    background-color: rgb(67, 70, 75);;
-    border-radius:5px;
-    
+    background-color: rgb(67, 70, 75);
+    ;
+    border-radius: 5px;
+
 }
-.nav2 div .burga1  {
-    display:none;
+
+.nav2 div .burga1 {
+    display: none;
 }
-.container1{
+
+.container1 {
     /* justify-content: center; */
     font-family: sans-serif;
     display: flex;
-    flex-direction:column;
-    align-items:center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 100px;
     /* border: 3px solid red; */
 }
-.middiv{
-    width:50%;
+
+.middiv {
+    width: 50%;
     /* border: 2px solid teal; */
     display: flex;
     text-align: center;
 }
-.middiv .box1{
+
+.middiv .box1 {
     text-align: center;
 }
-.middiv .box1 .dis{
-    color: rgb(28,231,131);
-    font-weight:800;
+
+.middiv .box1 .dis {
+    color: rgb(28, 231, 131);
+    font-weight: 800;
     padding-bottom: 30px;
     font-size: 0.8rem;
 
 }
-.middiv .box1 img{
-    width:12rem;
+
+.middiv .box1 img {
+    width: 12rem;
 }
-.middiv .box2 img{
-    width:15rem;
+
+.middiv .box2 img {
+    width: 15rem;
 }
+
 .middiv .box1 .both {
     color: white;
     font-size: 1.5rem;
@@ -87,196 +101,201 @@
     padding: 30px;
 }
 
-.middiv .butt button{
+.middiv .butt button {
     width: 90%;
     padding: 13px;
     font-family: sans-serif;
-    font-weight:700;
+    font-weight: 700;
     border: 0;
-    border-radius:3px;
-    background:rgb(28,231,131);
+    border-radius: 3px;
+    background: rgb(28, 231, 131);
     cursor: pointer;
     transition: background ease-in 300ms;
 }
-.middiv .butt button:hover{
-/* background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),rgb(28,231,131);  */
-background:rgb(21, 184, 103);
+
+.middiv .butt button:hover {
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),rgb(28,231,131);  */
+    background: rgb(21, 184, 103);
 
 
-/* background: red; */
+    /* background: red; */
 }
 
-.container1 .signup div a{
+.container1 .signup div a {
     display: block;
     font-family: sans-serif;
     font-weight: 400;
     text-align: center;
     color: white;
 }
-.container1 .signup div a:hover{
-    color:rgb(28,231,131);
+
+.container1 .signup div a:hover {
+    color: rgb(28, 231, 131);
 }
-.signup{
+
+.signup {
     /* border: 2px solid teal; */
     text-align: center;
-    width:50%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
     margin-top: 10px;
     margin-bottom: 50px;
 }
-.container1 .signup .terms_apply{
-    color:rgb(151,151,151);
+
+.container1 .signup .terms_apply {
+    color: rgb(151, 151, 151);
     cursor: pointer;
     font-family: sans-serif;
     font-weight: 500;
     outline: 0;
     border: 0;
     text-decoration: underline;
-    background-color:transparent;
+    background-color: transparent;
 }
-.view_more{
-    color:rgb(255,255,255);
-    font-size:0.8rem;
+
+.view_more {
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
 
 }
-.view_more_plan button{
-    border: 1px solid rgb(151,151,151);
+
+.view_more_plan button {
+    border: 1px solid rgb(151, 151, 151);
     cursor: pointer;
     font-family: sans-serif;
     outline: 0;
     text-decoration: underline;
-    background-color:transparent;
+    background-color: transparent;
     padding: 20px;
     border-radius: 50%;
 }
 
-#Ssec{
+#Ssec {
     width: 100%;
     padding-bottom: 50px;
-    background-color: rgb(11,12,15);
+    background-color: rgb(11, 12, 15);
 }
-.box4{
-    padding:100px 0;
+
+.box4 {
+    padding: 100px 0;
     text-align: center;
 }
-.box4 span{
-    font-size:0.8rem;
+
+.box4 span {
+    font-size: 0.8rem;
     font-family: sans-serif;
     font-weight: 600;
-    color:rgb(2,192,107);
+    color: rgb(2, 192, 107);
     display: block;
-    padding-bottom:15px;
-    
+    padding-bottom: 15px;
+
 }
-.box4 h2{
+
+.box4 h2 {
     color: white;
-    font-size:3rem;
-    padding-bottom:25px;
-    
+    font-size: 3rem;
+    padding-bottom: 25px;
+
 }
-.box4 p{
+
+.box4 p {
     color: white;
 }
-.box5{
+
+.box5 {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 95%;
     justify-content: center;
-
     gap: 2rem;
-    justify-content:center;
+    justify-content: center;
     padding-inline: 2rem;
-    /* border: 2px solid red; */
-    
+    border: 2px solid red;
 }
 
-.box6{   
-    width: 50%;
-    padding: 15px;
-    color: white;
-}
-.box5 .box6 span{
-    display: block;
-    padding: 10px 0;
+/* Movie Card */
+.card__container {
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 95%;
+    justify-content: center;
+    padding-inline: 2rem;
+    gap: 2rem;
 }
 
-.img1{
-    background-image: url(images/tvshows1.png);
-}
-.img1:hover{
-    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(images/tvshows1.png);
-}
-.img2{
-    background-image: url(images/movies2.png); 
-}
-.img2:hover{
-    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(images/movies2.png);
-}
-.img3{
-    background-image: url(images/huluoriginal2.png); 
-}
-.img3:hover{
-    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(images/huluoriginal2.png);
-}
-.img4{
-    background-image: url(images/addonpremiums1.png); 
-}
-.img4:hover{
-    background-image: linear-gradient(rgb(0,0,0,0.2),rgb(0,0,0,0.2)), url(images/addonpremiums1.png); 
-}
-
-
-.prop{
-    border-radius:15px;
-    padding: 10px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height:450px;
-    cursor: pointer;
-    transition: all ease-in 20ms;
-    /* box-sizing: content-box; */
-    /* border:4px solid transparent; */
-}
-.prop:hover{
-    outline:4px solid gray;
+.card {
+    overflow: hidden;
     border-radius: 15px;
+    position: relative;
+    transition: all ease-in-out 300ms;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.card:hover::before {
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.card:hover {
+    outline: 4px solid gray;
+}
+.card__text{
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    display:flex ;
+    flex-direction: column;
+    gap: .7rem;
 
 }
-.premi{
+
+.premi {
     color: white;
     text-align: end;
-    padding:15px 70px 80px 0;
+    padding: 15px 70px 80px 0;
     font-size: 0.8rem;
 }
-.box7{
+
+.box7 {
     width: 70%;
     margin: 0 auto;
     text-align: center;
 
 }
 
-.box8 .hulu_liveTV{
-    font-size:0.9rem;
+.box8 .hulu_liveTV {
+    font-size: 0.9rem;
     font-family: sans-serif;
     font-weight: 600;
-    color:rgb(2,192,107);
-    padding:5px;
-    
-}
-.box8 h2{
-    color: white;
-    font-family: sans-serif;
-    font-size:2.8rem;
-    font-weight: 600;
-    padding:20px;
-    
+    color: rgb(2, 192, 107);
+    padding: 5px;
+
 }
 
-.box8 h3 p{
-    color:rgb(243,243,243);
+.box8 h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
+    padding: 20px;
+
+}
+
+.box8 h3 p {
+    color: rgb(243, 243, 243);
     font-size: 1.1rem;
     font-family: sans-serif;
     letter-spacing: normal;
@@ -284,118 +303,128 @@ background:rgb(21, 184, 103);
     font-weight: 400;
 }
 
-.box8 h3 span{
+.box8 h3 span {
     display: block;
-    font-size:1.2rem;
-    color:rgb(2,192,107);
-    padding:25px;
+    font-size: 1.2rem;
+    color: rgb(2, 192, 107);
+    padding: 25px;
     font-weight: 600;
     font-family: sans-serif;
 
 }
-.box8 h3 button{
+
+.box8 h3 button {
     width: 220px;
     font-family: sans-serif;
-    font-weight: 700;;
-    color:black;
+    font-weight: 700;
+    ;
+    color: black;
     border: 0;
-    padding:15px;
+    padding: 15px;
     border-radius: 5px;
-    background-color:rgb(2,192,107) ;
+    background-color: rgb(2, 192, 107);
 }
-.box9 p{
-    color:rgb(129,129,131);
+
+.box9 p {
+    color: rgb(129, 129, 131);
     font-size: 0.7rem;
     font-family: sans-serif;
     font-weight: 400;
-    padding:15px;
+    padding: 15px;
 }
-.box9 p >.see_details{
+
+.box9 p>.see_details {
     font-size: 0.7rem;
     font-weight: 400;
     padding: 0;
     border: 0;
     background: 0;
-    color:rgb(129,129,131);
+    color: rgb(129, 129, 131);
     cursor: pointer;
 }
-.box9 button{
+
+.box9 button {
     border: 0;
     background: 0;
     padding: 10px;
-    color:rgb(174,174,175);
+    color: rgb(174, 174, 175);
     font-family: sans-serif;
     text-decoration: underline;
     font-weight: 800;
     cursor: pointer;
 }
 
-@media screen and (max-width:1020px){
-    .nav2 div:nth-child(2) .login{
+@media screen and (max-width:1020px) {
+    .nav2 div:nth-child(2) .login {
         display: none
     }
+
     .nav2 div .burga1 {
-        display:block;
+        display: block;
         padding: 5px 5px;
         /* border: 2px solid red; */
 
     }
-    .nav2 div .burga1:hover{
+
+    .nav2 div .burga1:hover {
         color: white;
-        background-color: rgb(67, 70, 75);;
-        border-radius:5px;
+        background-color: rgb(67, 70, 75);
+        ;
+        border-radius: 5px;
     }
-    .middiv .box1 img{
-        width:10rem;
+
+    .middiv .box1 img {
+        width: 10rem;
     }
-    .middiv .box2 img{
-        width:12rem;
+
+    .middiv .box2 img {
+        width: 12rem;
     }
 
 }
-@media screen and (max-width: 770px){
-    .middiv{
+
+@media screen and (max-width: 770px) {
+    .middiv {
         width: 100%;
         justify-content: space-evenly;
     }
+
     .middiv .box1 .both {
         font-size: 1rem;
         /* border: 2px solid maroon; */
         /* text-align:center; */
-        font-weight:400;
-        padding:20px 0;
+        font-weight: 400;
+        padding: 20px 0;
         white-space: nowrap;
     }
 }
-@media screen and (max-width:465px){
-    .middiv .box1 img{
-        width:7rem;
+
+@media screen and (max-width:465px) {
+    .middiv .box1 img {
+        width: 7rem;
     }
-    .middiv .box2 img{
-        width:9rem;
+
+    .middiv .box2 img {
+        width: 9rem;
     }
-    .middiv .box1 .both{
+
+    .middiv .box1 .both {
         white-space: wrap;
     }
 }
 
 @media screen and (max-width:1200px) {
-    .box5{
-       grid-template-columns: repeat(2,300px);
-}
+    .card__container {
+        grid-template-columns: repeat(2, 350px);
+        grid-template-rows: 48% 48%;
+        padding-inline: 10rem;
+    }
 
 }
-@media screen and (max-width:685px){
-    .box5{
-        grid-template-columns: repeat(2,1fr);
-        /* grid-template-rows: auto; */
-        max-width: 100%;
- }
-    .box5one{
-      max-width: 100%;
-    }
-    .prop{
-        max-width: 100%;
-        height: auto;
+
+@media screen and (max-width:790px) {
+    .card__container {
+        grid-template-columns: repeat(2, 1fr);
+        padding-inline: 1rem;
     }
 }
