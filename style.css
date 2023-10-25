@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 #Fsec {
@@ -16,12 +17,10 @@
 
 .nav2 {
     width: 100%;
-    /* border: 2px solid blue; */
     background-color: none;
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 2rem;
-    font-family: sans-serif;
 }
 
 .nav2 div:nth-child(1) img {
@@ -47,7 +46,6 @@
 .nav2 .login:hover {
     color: white;
     background-color: rgb(67, 70, 75);
-    ;
     border-radius: 5px;
 
 }
@@ -58,7 +56,6 @@
 
 .container1 {
     /* justify-content: center; */
-    font-family: sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +101,6 @@
 .middiv .butt button {
     width: 90%;
     padding: 13px;
-    font-family: sans-serif;
     font-weight: 700;
     border: 0;
     border-radius: 3px;
@@ -123,7 +119,6 @@
 
 .container1 .signup div a {
     display: block;
-    font-family: sans-serif;
     font-weight: 400;
     text-align: center;
     color: white;
@@ -147,7 +142,6 @@
 .container1 .signup .terms_apply {
     color: rgb(151, 151, 151);
     cursor: pointer;
-    font-family: sans-serif;
     font-weight: 500;
     outline: 0;
     border: 0;
@@ -164,7 +158,6 @@
 .view_more_plan button {
     border: 1px solid rgb(151, 151, 151);
     cursor: pointer;
-    font-family: sans-serif;
     outline: 0;
     text-decoration: underline;
     background-color: transparent;
@@ -179,13 +172,15 @@
 }
 
 .box4 {
-    padding: 100px 0;
+    width: 70%;
+    margin: 0 auto;
     text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 4rem;
 }
 
 .box4 span {
     font-size: 0.8rem;
-    font-family: sans-serif;
     font-weight: 600;
     color: rgb(2, 192, 107);
     display: block;
@@ -202,6 +197,10 @@
 
 .box4 p {
     color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 85ch;
+    font-size: 1.03rem;
 }
 
 .box5 {
@@ -212,7 +211,6 @@
     gap: 2rem;
     justify-content: center;
     padding-inline: 2rem;
-    border: 2px solid red;
 }
 
 /* Movie Card */
@@ -224,6 +222,7 @@
     justify-content: center;
     padding-inline: 2rem;
     gap: 2rem;
+    /* position: relative; */
 }
 
 .card {
@@ -252,7 +251,6 @@
 }
 .card__text{
     color: white;
-    font-family: sans-serif;
     position: absolute;
     top: 1.5rem;
     left: 1.5rem;
@@ -261,61 +259,107 @@
     gap: .7rem;
 
 }
-
-.premi {
-    color: white;
+.premium {
+    color: gray;
     text-align: end;
-    padding: 15px 70px 80px 0;
+    padding: 15px 70px 20px 0;
     font-size: 0.8rem;
+    /* position: absolute;
+    bottom: -1.5rem;
+    right: 0; */
 }
 
-.box7 {
+.box7{
     width: 70%;
-    margin: 0 auto;
     text-align: center;
-
+    color: white;
+    margin: 30px auto;
 }
 
-.box8 .hulu_liveTV {
+.hulu_liveTV {
     font-size: 0.9rem;
-    font-family: sans-serif;
     font-weight: 600;
     color: rgb(2, 192, 107);
     padding: 5px;
 
-}
-
-.box8 h2 {
+} 
+/* .box8{
+    margin-top:20px;
+}  */
+.box7 h2 {
     color: white;
-    font-family: sans-serif;
     font-size: 2.8rem;
     font-weight: 600;
     padding: 20px;
 
+} 
+.get__channels{
+    color: rgb(243, 243, 243);
+    font-size: 1.2rem;
+    display: flex;
+    font-weight: 400;
+    width: 85%;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
 }
-
-.box8 h3 p {
+.get__hulu{
+    margin: 20px auto;
+    width: 220px;
+    font-weight: 700;
+    color: black;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(2, 192, 107);
+}
+.live__tv__only{
+    font-size: 0.6rem;
+    color: rgb(157,158,159);
+    width: 88%;
+    margin:0 auto;
+}
+.see_details {
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: underline;
+    border: 0;
+    background: 0;
+    color: rgb(129, 129, 131);
+    cursor: pointer;
+} 
+.view__channel{
+        border: 0;
+        background: 0;
+        font-size: 1.1rem;
+        padding:30px;
+        color: rgb(174, 174, 175);
+        text-decoration: underline;
+        font-weight:500;
+        cursor: pointer;
+}
+/* .box8 h3 p {
     color: rgb(243, 243, 243);
     font-size: 1.1rem;
-    font-family: sans-serif;
-    letter-spacing: normal;
+    letter-spacing:1px;
     font-kerning: auto;
     font-weight: 400;
-}
+    line-height:23px;
+    font-size: 1rem;
+} */
 
-.box8 h3 span {
+/* .box8 h3 span {
     display: block;
     font-size: 1.2rem;
     color: rgb(2, 192, 107);
     padding: 25px;
     font-weight: 600;
-    font-family: sans-serif;
 
-}
+} */
 
-.box8 h3 button {
+/* .box8 h3 button {
     width: 220px;
-    font-family: sans-serif;
     font-weight: 700;
     ;
     color: black;
@@ -323,17 +367,16 @@
     padding: 15px;
     border-radius: 5px;
     background-color: rgb(2, 192, 107);
-}
+} */
 
-.box9 p {
+/* .box9 p {
     color: rgb(129, 129, 131);
     font-size: 0.7rem;
-    font-family: sans-serif;
     font-weight: 400;
     padding: 15px;
-}
+} */
 
-.box9 p>.see_details {
+/* .box9 p>.see_details {
     font-size: 0.7rem;
     font-weight: 400;
     padding: 0;
@@ -341,18 +384,17 @@
     background: 0;
     color: rgb(129, 129, 131);
     cursor: pointer;
-}
+} */
 
-.box9 button {
+/* .box9 button {
     border: 0;
     background: 0;
     padding: 10px;
     color: rgb(174, 174, 175);
-    font-family: sans-serif;
     text-decoration: underline;
     font-weight: 800;
     cursor: pointer;
-}
+} */
 
 @media screen and (max-width:1020px) {
     .nav2 div:nth-child(2) .login {
@@ -428,3 +470,40 @@
         padding-inline: 1rem;
     }
 }
+@media screen and (max-width:1020px) {
+    .box4 h2 {
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+.box4 p {
+    padding: 0 15px;
+    }
+    .box7 {
+        width:100%;
+        margin: 0;
+        padding-top:50px;
+        
+    
+    }
+}
+@media screen and (max-width:767px) {
+    .box4 {
+        width:100%;
+        padding: 10px;
+        padding-top: 3rem;
+    }
+}
+/* @media screen and (max-width:1100px) {
+.box7 {
+        width:50%;
+    }
+    .box8 h3 p {
+        color: rgb(243, 243, 243);
+        font-size:1.5rem;
+        /* letter-spacing:5px; */
+        /* font-kerning: auto; */
+        /* font-weight: 400;
+        line-height:10px;
+        font-size:0.8rem;
+    }
+}  */ 
