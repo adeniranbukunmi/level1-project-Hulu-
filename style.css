@@ -339,62 +339,405 @@
         font-weight:500;
         cursor: pointer;
 }
-/* .box8 h3 p {
-    color: rgb(243, 243, 243);
-    font-size: 1.1rem;
-    letter-spacing:1px;
-    font-kerning: auto;
-    font-weight: 400;
-    line-height:23px;
-    font-size: 1rem;
-} */
 
-/* .box8 h3 span {
-    display: block;
-    font-size: 1.2rem;
-    color: rgb(2, 192, 107);
-    padding: 25px;
-    font-weight: 600;
+/* LIVE SPORT  */
+.sport__wrapper{
+    background-image: url('./images/Robotic-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flow-root;
+}
 
-} */
+.sport__content{
+  height: 600px;
+  width: 65%;
+  /* border: 2px solid red; */
+  display: flex;
+  margin-top: 12rem;
+  /* align-items: center; */
+}
 
-/* .box8 h3 button {
-    width: 220px;
+.sport__details{
+    /* border: 2px solid green; */
+    margin: 0 auto;
+}
+.sport__details :is(.secondchild,.thirdchild){
+    color: darkgray;
+}
+
+.sport__details nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    padding-bottom: 1rem;
+    /* border: 2px solid red; */
+}
+
+.sport__details nav ul .firstchild{
+    padding-bottom: 1.3rem;
+    position: relative;
+}
+
+.sport__details nav ul .firstchild::after{
+     content: '';
+     position: absolute;
+     height: 5px;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     top: -50;
+     background-color: white;
+}
+.sport__details nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
     font-weight: 700;
-    ;
-    color: black;
-    border: 0;
-    padding: 15px;
-    border-radius: 5px;
-    background-color: rgb(2, 192, 107);
-} */
-
-/* .box9 p {
-    color: rgb(129, 129, 131);
-    font-size: 0.7rem;
-    font-weight: 400;
-    padding: 15px;
-} */
-
-/* .box9 p>.see_details {
-    font-size: 0.7rem;
-    font-weight: 400;
-    padding: 0;
-    border: 0;
-    background: 0;
-    color: rgb(129, 129, 131);
-    cursor: pointer;
-} */
-
-/* .box9 button {
-    border: 0;
-    background: 0;
-    padding: 10px;
-    color: rgb(174, 174, 175);
-    text-decoration: underline;
+}
+.sport__details h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 1rem;
+}
+.sport__details .sport__text{
+    color: #fff;
+    max-width: 48.5ch;
+    font-size: 1rem;
+    line-height: 21.76px;
+    padding-block: .8rem;
+}
+.sport__icons{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-block: 0.5rem;
+}
+.sport__icons .icon{
+    background-color: white;
+    padding: .4rem .2rem;
+    border-radius: 50%;
+    
+}
+.sport__details .tv__plan{
+    font-size: .7rem;
+    color: darkgray;
+    padding-top: 1rem;
+}
+.sport__details .tv__plan a{
+    color: darkgray;
+}
+.thirdsec{
+    background-image: url(https://cnbl-cdn.bamgrid.com/assets/3ab6ce86baaf4225b072c58fa9497ec949c0c9e284b3958ecda1429b7f3744f9/original);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:200px 0;
+}
+.middiv2{
+    margin: 0 190px;
+}
+.middiv2 .box10{
+    padding:10px;
+    margin: 10px;
+}
+.box10 button {
+background: 0;
+border: 0;
+padding-bottom:18px;
+cursor: pointer;
+}
+.box10 button span{
+    display: block;
+    color: white;
+    font-family: sans-serif;
     font-weight: 800;
+    font-size: 0.7rem;
+}
+.box10 button:nth-child(2) span{
+    color:rgb(97,114,104);
+    margin:0 10px;
+}
+.box10 button:nth-child(3) span{
+    color:rgb(97,114,104);
+}
+.box10 .nul{
+    background-color: white;
+    padding:2px;
+    width:80px;
+}
+.box11{
+    margin: 10px;
+    color: white; 
+    font-family: sans-serif;
+    font-weight:500;
+}
+.box11 div:nth-child(1) span{
+    font-size:3rem;
+}
+.box11 .parag{
+    font-size:0.99rem;
+    padding:20px 0;
+    color: rgb(216,225,221);
+    line-height:20px;
+    text-align: justify;
+    width:50%;
+}
+.imgin_circle{
+    width: 30%;
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgin_circle div img{
+    margin-top:10px;
+    width:3rem;
+    
+}
+.imgin_circle div{
+    justify-items: center;
+    width: 50px;
+    height:50px;
+    background-color: white;
+    border-radius:100%;
+}
+.box11 p{
+    font-size: 0.65rem;
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(128,152,141);
+}
+.box11 p a{
+    color: rgb(128,152,141);
+}
+
+
+.fouthsec{
+    background-color: rgb(11,12,15);
+    padding-bottom:40px;
+}
+.middiv3{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.Select_plan{
+    padding: 100px 100px 40px 100px;
+}
+.middiv3 .Select_plan h2{
+    font-size:3rem;
+    padding-bottom:20px;
+}
+.switch_plans{
+    font-weight:500;
+    word-spacing:0.1em;
+}
+.switch_plans b{
+    display: block;
+    font-size:1.3em;
+    font-weight: bold;
+}
+.box12{
+    border-top:1px solid rgb(155,157,159);
+    border-bottom:1px solid rgb(155,157,159);
+    gap:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 70%;
+    padding:20px;
+    margin: auto;
+    background-color: rgb(11,12,15);
+    position: sticky;
+    top: 0;
+}
+.base_plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:2px;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.base_plan div:nth-child(1){
+    /* border: 2px solid white; */
+    
+}
+
+.base_plan div:nth-child(2){
+    /* border: 2px solid white; */
+    
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 32px;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
     cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:rgb(66,73,87);
+    -webkit-transition:0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content:"";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:white;
+    -webkit-transition:0.4s;
+    transition: .4s;
+}
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.base_plan div:nth-child(3){
+    /* border: 2px solid white; */
+    /* display: flex; */
+    text-align: justify;
+    /* width: 2rem; */
+    
+}
+.base_plan div:nth-child(3) img{
+    width:12rem;
+    display: block;
+    
+}
+.free_trial_with_adds{
+    /* border: 2px solid purple; */
+    color: white;
+    display: flex;
+    gap: 20px;
+    text-align:center;
+    font-size:0.8rem;
+    font-family: sans-serif;
+    align-items: end;
+
+}
+.free_trial_with_adds div:nth-child(1) span{
+    padding:8px;
+    margin:20px;
+    color: black;
+    font-size: 0.6rem;
+    display: inline-block;
+    width: 150px;
+    height:30px;
+    background-color:rgb(28,231,131);
+    border:0;
+    border-radius:50px;
+}
+.monthly_sub{
+    background: 0;
+    width: 250px;
+    padding:15px;
+    border: 0;
+    background-color:white;
+    border-radius: 5px;  
+}
+.monthly_sub:hover{
+background-color:rgb(197,197,197) ;
+}
+/* .middiv4{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding:30px;
+    margin: auto;
+    border-bottom:1px solid rgb(87,87,89);
 } */
+.middiv4{
+    display:flex;
+    justify-content: space-between;
+    width: 70%;
+    padding:30px 0;
+    margin: auto;
+    border-bottom:1px solid rgb(87,87,89);
+    font-size:0.8rem;
+    font-family: sans-serif;
+}
+
+.box13{
+    width: 40%;
+    text-align: left;
+}
+.box14{
+    width:30%;
+    text-align:center;
+}
+.middiv4 .line  span{
+display: inline-block;
+width:15px;
+padding:0.5px;
+background-color:rgb(184,190,204);
+}
+.box15{
+    width:30%;
+    text-align: center;
+}
+.current_sea{
+    font-size: 0.6rem;
+    font-family: sans-serif;
+    width: 70%;
+    padding: 15px 30px 30px 0 ;
+    margin: auto;
+    text-align: start;
+    border-bottom:1px solid rgb(87,87,89);
+}
+.current_sea div:nth-child(2){
+    padding: 3px 0;
+}
+.show_adds{
+    /* border: 2px solid teal; */
+    text-align: center;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
+}
+.show_adds div:nth-child(1){
+    padding: 5px;
+    font-size: 20px;
+}
+.show_adds .fa-chevron-down{
+    padding: 5px;
+    font-size: 20px;
+}
 
 @media screen and (max-width:1020px) {
     .nav2 div:nth-child(2) .login {
@@ -422,10 +765,30 @@
     .middiv .box2 img {
         width: 12rem;
     }
+    .sport__wrapper{
+        background-image: url('./images/robotic-img-2.jpg');
+    }
+    .sport__content{
+     height: 800px;
+     margin-top: 2rem;
+     width: 100%;
+    }
+
+    .sport__details h2{
+        font-size: 2rem;
+        text-align: center;
+    }
 
 }
 
 @media screen and (max-width: 770px) {
+    .sport__details nav ul {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .sport__details nav ul li a {
+        font-size: 0.6rem;
+    }
     .middiv {
         width: 100%;
         justify-content: space-evenly;
@@ -433,11 +796,21 @@
 
     .middiv .box1 .both {
         font-size: 1rem;
-        /* border: 2px solid maroon; */
-        /* text-align:center; */
         font-weight: 400;
         padding: 20px 0;
         white-space: nowrap;
+    }
+}
+@media screen and (max-width:411px){
+    .sport__details nav ul{
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+    }
+    .sport__details .sport__text{
+        font-size: 0.9rem;
+        text-align: center;
+        padding-inline: 0.5rem;
     }
 }
 
@@ -468,6 +841,9 @@
     .card__container {
         grid-template-columns: repeat(2, 1fr);
         padding-inline: 1rem;
+    }
+    .sport__icons{
+        justify-content: center;
     }
 }
 @media screen and (max-width:1020px) {
