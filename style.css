@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
-    border: 2px solid red;
-
 }
 
 #Fsec {
@@ -882,6 +880,9 @@ background-color:rgb(184,190,204);
         width: 9rem;
     }
 
+}
+
+@media screen and (max-width:502px){
     .middiv .box1 .both {
         white-space: wrap;
     }
