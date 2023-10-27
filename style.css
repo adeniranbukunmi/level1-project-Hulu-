@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    border: 2px solid red;
+
 }
 
 #Fsec {
@@ -512,18 +514,22 @@ cursor: pointer;
     color: rgb(128,152,141);
 }
 
-
 .fouthsec{
     background-color: rgb(11,12,15);
     padding-bottom:40px;
 }
+
 .middiv3{
     text-align: center;
     color: white;
     font-family: sans-serif;
+    /* border: 3px solid red; */
+    width: 960px;
+    margin: 0 auto;
 }
 .Select_plan{
-    padding: 100px 100px 40px 100px;
+    /* padding: 100px 100px 40px 100px; */ 
+    padding-block:4rem;
 }
 .middiv3 .Select_plan h2{
     font-size:3rem;
@@ -531,11 +537,13 @@ cursor: pointer;
 }
 .switch_plans{
     font-weight:500;
-    word-spacing:0.1em;
+    letter-spacing: 0.6px;
+    /* word-spacing:0.1em; */
+    width: 100%;
 }
 .switch_plans b{
     display: block;
-    font-size:1.3em;
+    font-size:1.3rem;
     font-weight: bold;
 }
 .box12{
@@ -544,13 +552,13 @@ cursor: pointer;
     gap:20px;
     display: flex;
     flex-direction:row;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 70%;
-    padding:20px;
-    margin: auto;
+    width: 100%;
     background-color: rgb(11,12,15);
     position: sticky;
-    top: 0;
+    top:0;
+    /* border: 3px solid yellow; */
 }
 .base_plan{
     display: flex;
@@ -560,6 +568,7 @@ cursor: pointer;
     align-items: center;
     font-family: sans-serif;
     font-weight: 700;
+    /* border: 2px solid green; */
 }
 .base_plan div:nth-child(1){
     /* border: 2px solid white; */
@@ -607,11 +616,11 @@ cursor: pointer;
     transition: .4s;
 }
 input:checked + .slider {
-    background-color: #2196F3;
+    background-color: rgb(28,231,131);
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px rgb(28,231,131);
 }
 
 :checked + .slider:before {
@@ -651,42 +660,56 @@ input:focus + .slider {
     align-items: end;
 
 }
-.free_trial_with_adds div:nth-child(1) span{
-    padding:8px;
-    margin:20px;
-    color: black;
-    font-size: 0.6rem;
-    display: inline-block;
-    width: 150px;
-    height:30px;
-    background-color:rgb(28,231,131);
-    border:0;
-    border-radius:50px;
+
+.with__adds .first{
+   font-size: .6rem;
+   font-weight: 500;
+   letter-spacing: 1px;
+   padding:.4rem 1rem;
+   margin:20px;
+   color: black;
+   display: inline-block;
+   background-color:rgb(28,231,131);
+   border:0;
+   border-radius:50px;
 }
-.monthly_sub{
-    background: 0;
-    width: 250px;
-    padding:15px;
+
+:is(.with__adds,.no__adds) .second{
+    color: #BEC0C2;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 14px;
+    padding-bottom: 0.4rem;
+}
+
+:is(.with__adds,.no__adds) .third{
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 23.7px;
+}
+.with__adds,.no__adds{
+    padding: 20px;
+}
+
+.monthly_sub{    
+    cursor: pointer;
     border: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    padding: .8rem 4rem;
+    margin-top: .8rem;
     background-color:white;
     border-radius: 5px;  
 }
 .monthly_sub:hover{
 background-color:rgb(197,197,197) ;
 }
-/* .middiv4{
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    padding:30px;
-    margin: auto;
-    border-bottom:1px solid rgb(87,87,89);
-} */
 .middiv4{
     display:flex;
     justify-content: space-between;
-    width: 70%;
-    padding:30px 0;
+    width: 100%;
     margin: auto;
     border-bottom:1px solid rgb(87,87,89);
     font-size:0.8rem;
@@ -694,27 +717,32 @@ background-color:rgb(197,197,197) ;
 }
 
 .box13{
-    width: 40%;
+    width: 37.5%;
     text-align: left;
+    padding:30px 0;
+    font-size: 0.9rem;
 }
 .box14{
-    width:30%;
-    text-align:center;
+    width:28.5%;
+    padding:30px 0;
+
 }
 .middiv4 .line  span{
 display: inline-block;
 width:15px;
 padding:0.5px;
 background-color:rgb(184,190,204);
+/* border: 2px solid red; */
 }
 .box15{
     width:30%;
     text-align: center;
+    padding:30px 0;
 }
 .current_sea{
     font-size: 0.6rem;
     font-family: sans-serif;
-    width: 70%;
+    width: 100%;
     padding: 15px 30px 30px 0 ;
     margin: auto;
     text-align: start;
@@ -725,6 +753,8 @@ background-color:rgb(184,190,204);
 }
 .show_adds{
     /* border: 2px solid teal; */
+    font-size:1rem;
+    padding: 1rem 0 ;
     text-align: center;
     display: flex;
     margin: auto;
@@ -732,8 +762,8 @@ background-color:rgb(184,190,204);
 }
 .show_adds div:nth-child(1){
     padding: 5px;
-    font-size: 20px;
 }
+
 .show_adds .fa-chevron-down{
     padding: 5px;
     font-size: 20px;
@@ -747,7 +777,6 @@ background-color:rgb(184,190,204);
     .nav2 div .burga1 {
         display: block;
         padding: 5px 5px;
-        /* border: 2px solid red; */
 
     }
 
@@ -777,6 +806,36 @@ background-color:rgb(184,190,204);
     .sport__details h2{
         font-size: 2rem;
         text-align: center;
+    }
+    .middiv3{
+        width: 100%;
+    }
+    .middiv3 .Select_plan h2{
+        font-size: 2rem;
+    }
+    .box12{
+        gap: 0;
+    }
+    .box14{
+        background-color: rgb(11,12,15) !important;
+    }
+    .base_plan{
+        width: 100%;
+        border-bottom: 1px solid gray;
+        padding-block: 1rem;
+    }
+    .free_trial_with_adds{
+        width: 100%;
+    }
+
+    .with__adds{
+        flex:  0 0 50%;
+        border-right: 1px solid gray;
+        background-color: rgb(11,12,15) !important;
+    }
+    .free_trial_no_adds{
+        flex:  0 0 42%;
+        /* border: 2px solid green; */
     }
 
 }
@@ -834,7 +893,12 @@ background-color:rgb(184,190,204);
         grid-template-rows: 48% 48%;
         padding-inline: 10rem;
     }
-
+    .with__adds{
+        background-color: #272C34;
+    }
+    .box14{
+        background-color: #272C34;
+    }
 }
 
 @media screen and (max-width:790px) {
@@ -868,7 +932,19 @@ background-color:rgb(184,190,204);
         padding: 10px;
         padding-top: 3rem;
     }
+    :is(.with__adds,.no__adds) .second{
+        font-size: 0.7rem;
+    }
+    :is(.with__adds,.no__adds) .third{
+        font-size: 0.9rem;
+    }
+    .monthly_sub{
+        width: 100%;
+        font-size: 0.7rem;
+        padding-inline: .2rem;
+    }
 }
+
 /* @media screen and (max-width:1100px) {
 .box7 {
         width:50%;
