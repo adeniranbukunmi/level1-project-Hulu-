@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    /* border: 1px solid maroon; */
+}
+body{
+    background-color:#f7f7f9;
+}
+.account{
+    width: 75%;
+    margin: 0 auto;
+    /* border: 2px solid yellow; */
+}
+.sign__Up__nav {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+
+}
+
+.log__in a{
+    text-decoration: none;
+}
+.log__in a span{
+    margin-top:5px;
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+    background:0;
+    display: block;
+
+}
+
+.nav__img img{
+    width: 5rem;
+    /* border: 2px solid yellow; */
+
+}
+.Create__account{
+    padding-top: 48px;
+    text-align: center;
+}
+.Create__account h1{
+    font-size: 48px;
+    letter-spacing: -0.5px;
+    font-weight: 700;
+}
+.Create__account p{
+    margin: 16px 0 ;
+}
+.form{
+    /* width: 100%; */
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+form{
+    width: 600px;
+    background-color: white;
+    margin-top: 2rem;
+    padding: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+form .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+.form__text{
+    text-align: center;
+    font-size: .85rem;
+    line-height: 21px;
+      color: #636E85;
+      margin-bottom: 1.2rem;
+}
+.form__text.bottom{
+    padding-inline: 1rem;
+    width: 60%;
+    font-size: 0.75rem ;
+    margin: 0 auto;
+    line-height: 22px;
+    padding-block: 2rem;
+}
+form label{
+  color: #636E85;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+form input,form select{
+    height: 47px;
+    width: 100%;
+    padding: 13px 10px;
+    border-radius: 3px;
+    outline: 0;
+    border: 2px solid #b9bfc8;
+    margin-top: 0.2rem;
+
+}
+form .birthdate{
+    display: flex;
+    width: 100%;
+    gap: .7rem;
+}
+form .birthdate div {
+    width: 100%;
+}
+.account .button__wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.account .button{
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+   color:#b9bfc8;
+   background-color: #8f9197;
+   padding: 1rem 10rem;
+}
+footer{
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+}
+footer ul{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #636E85;
+    font-size: .85rem;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width:950px){
+    .Create__account h1{
+        font-size: 2rem;
+    }
+    .Create__account p {
+        font-size: .8rem;
+    }
+    .form__text.bottom{
+      width: 100%;
+    }
+}
+@media screen and (max-width:650px) {
+    .Create__account h1{
+        font-size: 1.7rem;
+    }
+    .account{
+        width: 100%;
+    }
+    form{
+        margin-inline: 1rem;
+    }
+    .account .button{
+        padding: 1rem 5rem;
+    }
+    
+}
