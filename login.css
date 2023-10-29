@@ -135,9 +135,11 @@ form input,form select{
 footer{
     margin-top: 6rem;
     margin-bottom: 3rem;
+    
 }
 footer ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
     list-style-type: none;
