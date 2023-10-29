@@ -41,18 +41,16 @@ body{
 
 .nav__img img{
     width: 5rem;
-    /* border: 2px solid yellow; */
+
 
 }
 
 .form{
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     margin: 0 auto;
 }
 form{
-    /* border: 3px solid black; */
     width: 450px;
     background-color: white;
     margin-top: 2rem;
@@ -68,9 +66,7 @@ form .inputs{
     text-align: start;
     font-size:0.9rem;
     line-height: 21px;
-    /* letter-spacing: 0.1rem; */
     color: #636E85;
-    /* border: 2px solid red; */
     margin-bottom: 1.2rem;
 }
 .form__text.bottom{
@@ -98,7 +94,6 @@ form input,form select{
 
 }
 .forget__password a{
-    /* border: 2px solid green; */
     text-decoration: none;
     color:#75bbf6;
     padding: 1rem 0;
@@ -107,7 +102,6 @@ form input,form select{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    /* border: 2px solid red; */
 }
 
 .button__wrapper .button{
@@ -122,22 +116,18 @@ form input,form select{
     margin-bottom: 5rem;
 }
 .start__for__free {
-    /* border: 2px solid red; */
     text-align: center;
-    /* text-decoration: none; */
     font-size: 14px;
     letter-spacing: 0.25px;
     
 }
 .start__for__free p {
-    /* border: 2px solid red; */
     color: #8f9197;
    
 
     
 }
 .start__for__free a{
-    /* border: 2px solid red; */
     text-align: center;
     color:#75bbf6;
     text-decoration: none;
@@ -145,23 +135,18 @@ form input,form select{
 footer{
     margin-top: 6rem;
     margin-bottom: 3rem;
-    /* border: 2px solid green; */
-    /* margin: 0 auto; */
-    /* text-align: end; */
 }
 footer ul{
     display: flex;
     gap: 1rem;
     justify-content: center;
-    /* flex-wrap: wrap; */
     list-style-type: none;
-    /* text-align: center; */
 }
 footer ul li a {
     text-decoration: none;
     color: #636E85;
     font-size: .85rem;
-    /* text-align: center; */
+    
 }
 
 /* RESPONSIVENESS */
@@ -189,5 +174,12 @@ footer ul li a {
     .account .button{
         padding: 1rem 5rem;
     }
-    
+}
+@media screen and (max-width:750px) {
+    footer{
+        display: none;
+    }
+    form{
+        width: 100%;
+    }
 }
